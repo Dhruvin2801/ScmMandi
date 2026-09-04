@@ -1,0 +1,10 @@
+commodity,n_markets,n_days,pairs,coint_pairs,coint_pct,within_state_pct,cross_state_pct,granger_pct
+Onion,25,735,300,279,93.0,93.0,,
+Tomato,25,735,300,281,93.7,92.9,97.9,
+Potato,25,735,300,174,58.0,55.1,91.7,
+Brinjal,25,735,300,282,94.0,93.5,100.0,
+Green Chilli,25,735,300,231,77.0,77.0,,
+Banana,25,732,300,64,21.3,25.6,6.1,
+Maize,25,563,276,131,47.5,53.9,13.6,
+Paddy (Common),21,409,210,25,11.9,11.7,12.0,
+Groundnut,25,683,300,90,30.0,30.0,,

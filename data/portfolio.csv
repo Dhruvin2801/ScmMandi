@@ -1,0 +1,3 @@
+strategy,districts_funded,npv_p05_cr,npv_p50_cr,npv_p95_cr,expected_npv_cr,p_positive
+Screened by crop mix,31,1190,3739,6895,3849,99.5
+Uniform across all districts,84,895,2472,4449,2549,99.8

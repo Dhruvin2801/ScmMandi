@@ -1,0 +1,10 @@
+commodity,markets,directed_pairs,granger_sig,granger_pct,median_lag_days
+Onion,15,210,127,60.5,4.0
+Tomato,15,210,187,89.0,5.0
+Potato,15,210,61,29.0,3.0
+Brinjal,15,210,102,48.6,4.0
+Green Chilli,15,210,108,51.4,4.0
+Banana,15,210,37,17.6,3.0
+Maize,15,182,27,14.8,2.0
+Paddy (Common),15,210,56,26.7,3.0
+Groundnut,15,210,37,17.6,4.0

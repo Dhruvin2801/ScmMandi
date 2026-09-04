@@ -1,0 +1,47 @@
+commodity,variety,perishability,origin,destination,road_km,months,median_spread,median_spoil,net_low,viable_pct_low,net_mid,viable_pct_mid,net_high,viable_pct_high,band
+Brinjal,brinjal,High,Andhra Pradesh,Karnataka,402,18,-1263,80,-2533,38.9,-3136,33.3,-3739,27.8,400-700
+Brinjal,brinjal,High,Andhra Pradesh,Telangana,224,18,-4232,59,-4952,33.3,-5288,33.3,-5624,33.3,<400
+Brinjal,brinjal,High,Karnataka,Andhra Pradesh,402,18,1263,78,-12,50.0,-615,38.9,-1218,38.9,400-700
+Brinjal,brinjal,High,Karnataka,Telangana,625,25,-3196,75,-5130,32.0,-6067,28.0,-7005,28.0,400-700
+Brinjal,brinjal,High,Telangana,Andhra Pradesh,224,18,4232,78,3496,66.7,3160,66.7,2824,61.1,<400
+Brinjal,brinjal,High,Telangana,Karnataka,625,25,3196,100,1249,64.0,312,52.0,-626,48.0,400-700
+Brinjal,round,High,Karnataka,Tamil Nadu,315,22,22946,148,21869,100.0,21396,100.0,20924,100.0,<400
+Brinjal,round,High,Tamil Nadu,Karnataka,315,22,-22946,60,-23942,0.0,-24415,0.0,-24887,0.0,<400
+Green Chilli,green chilly,High,Andhra Pradesh,Karnataka,402,17,1076,128,-238,47.1,-841,47.1,-1444,47.1,400-700
+Green Chilli,green chilly,High,Andhra Pradesh,Tamil Nadu,451,17,14506,166,12979,82.4,12303,82.4,11626,82.4,400-700
+Green Chilli,green chilly,High,Andhra Pradesh,Telangana,224,17,-7114,93,-7877,5.9,-8213,5.9,-8549,5.9,<400
+Green Chilli,green chilly,High,Karnataka,Andhra Pradesh,402,17,-1076,123,-2386,29.4,-2989,29.4,-3592,23.5,400-700
+Green Chilli,green chilly,High,Karnataka,Tamil Nadu,315,25,13810,166,12706,88.0,12233,88.0,11761,84.0,<400
+Green Chilli,green chilly,High,Karnataka,Telangana,625,25,-8529,116,-10530,8.0,-11467,4.0,-12405,0.0,400-700
+Green Chilli,green chilly,High,Tamil Nadu,Andhra Pradesh,451,17,-14506,123,-15982,11.8,-16659,5.9,-17335,5.9,400-700
+Green Chilli,green chilly,High,Tamil Nadu,Karnataka,315,25,-13810,128,-14865,8.0,-15338,8.0,-15810,8.0,<400
+Green Chilli,green chilly,High,Tamil Nadu,Telangana,619,25,-20061,115,-22004,0.0,-22933,0.0,-23861,0.0,400-700
+Green Chilli,green chilly,High,Telangana,Andhra Pradesh,224,17,7114,123,6326,88.2,5990,88.2,5654,88.2,<400
+Green Chilli,green chilly,High,Telangana,Karnataka,625,25,8529,160,6491,84.0,5553,80.0,4616,76.0,400-700
+Green Chilli,green chilly,High,Telangana,Tamil Nadu,619,25,20061,205,18018,100.0,17090,100.0,16161,100.0,400-700
+Groundnut,big (with shell),Storable,Karnataka,Tamil Nadu,315,12,8333,37,7508,91.7,7193,91.7,6721,91.7,<400
+Groundnut,big (with shell),Storable,Tamil Nadu,Karnataka,315,12,-8333,32,-9153,8.3,-9468,8.3,-9940,0.0,<400
+Maize,deshi red,Storable,Maharashtra,Tamil Nadu,1253,20,7356,39,4184,90.0,2931,90.0,1051,90.0,>1000
+Maize,deshi red,Storable,Maharashtra,Telangana,717,19,1143,18,-667,36.8,-1384,21.1,-2460,21.1,700-1000
+Maize,deshi red,Storable,Tamil Nadu,Maharashtra,1253,20,-7356,29,-10517,0.0,-11770,0.0,-13649,0.0,>1000
+Maize,deshi red,Storable,Tamil Nadu,Telangana,619,17,-6403,16,-7966,0.0,-8585,0.0,-9514,0.0,400-700
+Maize,deshi red,Storable,Telangana,Maharashtra,717,19,-1143,17,-2952,10.5,-3669,5.3,-4745,5.3,700-1000
+Maize,deshi red,Storable,Telangana,Tamil Nadu,619,17,6403,19,4836,100.0,4217,100.0,3288,94.1,400-700
+Maize,yellow,Storable,Karnataka,Maharashtra,1099,13,-1927,23,-4699,0.0,-5798,0.0,-7447,0.0,>1000
+Maize,yellow,Storable,Maharashtra,Karnataka,1099,13,1927,27,-848,23.1,-1947,15.4,-3595,7.7,>1000
+Paddy (Common),b p t,Storable,Tamil Nadu,Telangana,619,22,-1049,16,-2611,22.7,-3230,22.7,-4158,22.7,400-700
+Paddy (Common),b p t,Storable,Telangana,Tamil Nadu,619,22,1049,17,-514,40.9,-1133,36.4,-2061,31.8,400-700
+Paddy (Common),paddy,Storable,Karnataka,Telangana,625,19,-239,16,-1818,15.8,-2443,5.3,-3380,5.3,400-700
+Paddy (Common),paddy,Storable,Telangana,Karnataka,625,19,239,16,-1339,21.1,-1964,21.1,-2902,10.5,400-700
+Potato,potato,Semi,Karnataka,Telangana,625,25,4951,26,3355,60.0,2730,56.0,1793,56.0,400-700
+Potato,potato,Semi,Telangana,Karnataka,625,25,-4951,17,-6541,36.0,-7166,28.0,-8104,20.0,400-700
+Potato,red nanital,Semi,Andhra Pradesh,Tamil Nadu,451,12,23398,35,22230,100.0,21779,100.0,21103,100.0,400-700
+Potato,red nanital,Semi,Andhra Pradesh,Telangana,224,12,492,14,-81,50.0,-305,50.0,-641,33.3,<400
+Potato,red nanital,Semi,Tamil Nadu,Andhra Pradesh,451,12,-23398,14,-24546,0.0,-24997,0.0,-25674,0.0,400-700
+Potato,red nanital,Semi,Tamil Nadu,Telangana,619,21,-23012,19,-24578,0.0,-25197,0.0,-26126,0.0,400-700
+Potato,red nanital,Semi,Telangana,Andhra Pradesh,224,12,-492,14,-1066,41.7,-1290,33.3,-1626,33.3,<400
+Potato,red nanital,Semi,Telangana,Tamil Nadu,619,21,23012,43,21421,100.0,20802,100.0,19874,100.0,400-700
+Tomato,deshi,High,Tamil Nadu,Telangana,619,25,-11590,58,-13497,0.0,-14425,0.0,-15354,0.0,400-700
+Tomato,deshi,High,Telangana,Tamil Nadu,619,25,11590,114,9633,100.0,8705,100.0,7776,100.0,400-700
+Tomato,tomato,High,Karnataka,Telangana,625,25,3623,79,1676,68.0,739,64.0,-199,44.0,400-700
+Tomato,tomato,High,Telangana,Karnataka,625,25,-3623,56,-5533,4.0,-6471,4.0,-7408,0.0,400-700

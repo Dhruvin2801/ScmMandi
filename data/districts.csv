@@ -1,0 +1,85 @@
+state,district,perish_pct,annual_perish_t,p_viable,npv_p05,npv_p50,npv_p95,payback_p50,capex_p50,scale,decision
+Andhra Pradesh,Annamayya,99.6,355817,100.0,12974,28620,48623,0.97,4183,Material,Invest — robust
+Andhra Pradesh,Dr.B.R.A.Konaseema,94.3,43446,100.0,1834,3910,6565,0.88,511,Material,Invest — robust
+Andhra Pradesh,Kurnool,3.8,28024,100.0,1836,3580,5841,0.64,329,Material,Invest — robust
+Karnataka,Chamarajanagar,15.2,8470,100.0,598,1151,1871,0.61,100,Below material scale,Not a candidate (scale)
+Karnataka,Kalaburagi,47.3,12428,100.0,359,851,1474,1.11,146,Below material scale,Not a candidate (scale)
+Tamil Nadu,Krishnagiri,93.0,12158,100.0,749,1472,2411,0.67,143,Below material scale,Not a candidate (scale)
+Tamil Nadu,Salem,93.3,21738,100.0,1918,3594,5770,0.51,256,Below material scale,Not a candidate (scale)
+Tamil Nadu,Pudukkottai,35.6,4503,100.0,183,393,662,0.9,53,Below material scale,Not a candidate (scale)
+Telangana,Adilabad,11.0,2972,100.0,157,318,526,0.75,35,Below material scale,Not a candidate (scale)
+Telangana,Warangal,17.5,15586,100.0,752,1551,2581,0.8,183,Below material scale,Not a candidate (scale)
+Telangana,Mancherial,3.2,494,100.0,20,43,73,0.9,6,Below material scale,Not a candidate (scale)
+Telangana,Jagtial,1.6,869,100.0,39,82,137,0.85,10,Below material scale,Not a candidate (scale)
+Maharashtra,Nagpur,61.9,197875,100.0,6314,14504,24914,1.05,2326,Material,Invest — robust
+Tamil Nadu,Coimbatore,78.6,16611,100.0,1031,2023,3314,0.67,195,Below material scale,Not a candidate (scale)
+Maharashtra,Sangli,76.4,131261,100.0,5538,11809,19827,0.88,1543,Material,Invest — robust
+Maharashtra,Raigad,90.1,26045,100.0,1655,3240,5299,0.66,306,Material,Invest — robust
+Tamil Nadu,Cuddalore,28.7,4382,100.0,159,352,598,0.97,52,Below material scale,Not a candidate (scale)
+Maharashtra,Buldhana,6.0,4926,100.0,147,344,594,1.1,58,Below material scale,Not a candidate (scale)
+Maharashtra,Chandrapur,24.5,37059,100.0,1089,2567,4439,1.1,436,Material,Invest — robust
+Maharashtra,Akola,46.7,43072,100.0,1796,3838,6451,0.89,506,Material,Invest — robust
+Tamil Nadu,Erode,32.7,5085,100.0,496,920,1470,0.46,60,Below material scale,Not a candidate (scale)
+Andhra Pradesh,Chittor,100.0,59891,99.9,1630,3949,6875,1.15,704,Material,Invest — robust
+Tamil Nadu,Thiruchirappalli,29.7,4403,99.8,87,238,429,1.36,52,Below material scale,Not a candidate (scale)
+Telangana,Nagarkurnool,4.3,1140,99.8,22,60,109,1.38,13,Below material scale,Not a candidate (scale)
+Telangana,Khammam,7.8,27617,99.8,600,1584,2819,1.29,325,Material,Invest — robust
+Karnataka,Chikkamagaluru,65.3,11348,99.8,229,624,1119,1.34,133,Below material scale,Not a candidate (scale)
+Telangana,Ranga Reddy,63.2,30815,99.7,551,1580,2869,1.42,362,Material,Invest — robust
+Maharashtra,Beed,74.8,34200,99.7,620,1769,3207,1.41,402,Material,Invest — robust
+Tamil Nadu,Thirunelveli,20.4,5482,99.6,86,264,484,1.49,64,Below material scale,Not a candidate (scale)
+Maharashtra,Mumbai,98.7,705808,99.6,11377,34303,62909,1.48,8298,Material,Invest — robust
+Maharashtra,Pune,98.2,1175110,99.4,16897,53990,99859,1.55,13815,Material,Invest — robust
+Karnataka,Chikkaballapur,89.7,98560,99.2,1226,4238,7946,1.63,1159,Material,Invest — robust
+Karnataka,Bengaluru,99.1,631198,99.2,7652,26824,50408,1.65,7421,Material,Invest — robust
+Karnataka,Kolar,88.9,453138,99.2,5609,19434,36455,1.63,5327,Material,Invest — robust
+Maharashtra,Satara,98.1,53018,99.1,621,2220,4183,1.67,623,Material,Invest — robust
+Tamil Nadu,Madurai,14.2,9276,99.0,106,383,724,1.68,109,Below material scale,Not a candidate (scale)
+Telangana,Karimnagar,3.5,1213,99.0,13,49,93,1.72,14,Below material scale,Not a candidate (scale)
+Telangana,Mahbubnagar,1.5,1758,99.0,19,71,135,1.71,21,Below material scale,Not a candidate (scale)
+Telangana,Hyderabad,100.0,782381,99.0,8679,31985,60546,1.7,9198,Material,Invest — robust
+Tamil Nadu,Thiruvannamalai,13.2,6589,99.0,69,264,501,1.73,77,Below material scale,Not a candidate (scale)
+Tamil Nadu,Vellore,14.2,11427,98.9,117,453,862,1.74,134,Below material scale,Not a candidate (scale)
+Maharashtra,Amarawati,48.3,38461,98.6,333,1422,2752,1.84,452,Material,Invest — robust
+Karnataka,Unknown,89.6,118768,98.3,841,4105,8072,1.93,1396,Material,Invest — robust
+Maharashtra,Jalgaon,57.8,177776,98.1,1125,5950,11784,1.98,2090,Material,Invest — robust
+Maharashtra,Nashik,90.8,3735939,97.9,21520,122125,243054,2.01,43922,Material,Invest — robust
+Maharashtra,Jalna,11.6,4970,97.9,29,163,324,2.01,58,Below material scale,Not a candidate (scale)
+Karnataka,Mysuru,18.0,28207,97.6,144,892,1789,2.06,332,Material,Invest — robust
+Telangana,Siddipet,18.9,3459,97.4,15,105,214,2.12,41,Below material scale,Not a candidate (scale)
+Telangana,Sangareddy,71.2,8935,97.2,36,268,545,2.14,105,Below material scale,Not a candidate (scale)
+Maharashtra,Nandurbar,3.3,735,97.2,3,22,45,2.15,9,Below material scale,Not a candidate (scale)
+Maharashtra,Ahilyanagar,99.0,1577820,97.0,5299,45846,94147,2.19,18550,Material,Invest — robust
+Karnataka,Chitradurga,0.0,70,97.0,0,2,4,2.19,1,Below material scale,Not a candidate (scale)
+Karnataka,Tumakuru,0.6,541,96.9,2,15,32,2.21,6,Below material scale,Not a candidate (scale)
+Maharashtra,Kolhapur,100.0,149725,96.7,400,4197,8712,2.25,1760,Material,Invest — robust
+Tamil Nadu,Ramanathapuram,5.7,1631,96.2,3,43,91,2.33,19,Below material scale,Not a candidate (scale)
+Karnataka,Mandya,1.4,952,95.8,1,24,52,2.39,11,Below material scale,Not a candidate (scale)
+Karnataka,Shivamogga,9.2,12866,95.7,13,328,701,2.4,151,Below material scale,Not a candidate (scale)
+Tamil Nadu,Villupuram,2.1,2479,95.6,2,63,134,2.42,29,Below material scale,Not a candidate (scale)
+Karnataka,Davangere,7.1,35134,95.0,0,843,1834,2.5,413,Material,Invest — robust
+Karnataka,Hassan,40.5,30571,94.7,-17,709,1560,2.56,359,Material,Invest — conditional
+Maharashtra,Solapur,98.5,746368,94.7,-356,17378,38176,2.55,8775,Material,Invest — conditional
+Karnataka,Uttara Kannada,0.0,0,93.8,0,0,0,2.67,0,No perishable volume,Not a candidate (scale)
+Tamil Nadu,Kancheepuram,4.8,2227,93.7,-4,48,108,2.69,26,Below material scale,Not a candidate (scale)
+Maharashtra,Chattrapati Sambhajinagar,93.4,445692,93.3,-915,9352,21221,2.74,5240,Material,Invest — conditional
+Maharashtra,Dhule,67.1,128285,93.2,-283,2656,6059,2.76,1508,Material,Invest — conditional
+Tamil Nadu,Thiruvellore,0.7,1249,89.9,-6,21,52,3.15,15,Below material scale,Not a candidate (scale)
+Maharashtra,Dharashiv,98.6,18766,72.6,-225,126,500,4.79,221,Below material scale,Not a candidate (scale)
+Karnataka,Dharwad,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Andhra Pradesh,SPSR Nellore,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Yavatmal,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Nanded,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Parbhani,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Bhandara,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Gadchiroli,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Hingoli,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Gondiya,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Maharashtra,Washim,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Asifabad,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Bhadradri Kothagudem,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Jogulamba Gadwal,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Nirmal,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Nizamabad,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Suryapet,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)
+Telangana,Vikarabad,0.0,0,0.0,0,0,0,,0,No perishable volume,Not a candidate (scale)

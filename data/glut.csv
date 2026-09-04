@@ -1,0 +1,13 @@
+commodity,perishability,glut_price_vs_average_pct,reading
+Banana,High,-18.7,Forced discount in glut months
+Onion,Semi,-15.0,Forced discount in glut months
+Brinjal,High,-13.8,Forced discount in glut months
+Potato,Semi,-11.6,Forced discount in glut months
+Maize,Storable,-8.7,Forced discount in glut months
+Cotton,Storable,-3.7,Forced discount in glut months
+Paddy (Common),Storable,-1.2,Little effect
+Ragi,Storable,-0.5,Little effect
+Turmeric,Storable,0.2,Little effect
+Green Chilli,High,0.8,Little effect
+Groundnut,Storable,1.1,Little effect
+Tomato,High,12.6,Price holds up in glut months

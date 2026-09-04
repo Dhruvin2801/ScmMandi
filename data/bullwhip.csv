@@ -1,0 +1,15 @@
+commodity,perishability,n,r,p,median_amp,median_cv_price,median_cv_arr
+Cotton,Storable,499,0.255,7.77e-09,30.59,0.016,0.516
+Paddy (Common),Storable,1471,0.209,4.81e-16,20.12,0.017,0.57
+Maize,Storable,1903,0.149,6.58e-11,16.55,0.036,0.467
+Ragi,Storable,140,0.314,0.000156,15.76,0.04,0.658
+Turmeric,Storable,148,0.186,0.0238,13.26,0.041,0.632
+Arecanut,Storable,465,0.411,2.06e-20,9.13,0.039,0.475
+Groundnut,Storable,1401,0.375,6.8e-48,8.06,0.045,0.312
+Banana,High,6861,0.169,2.89e-45,3.02,0.076,0.199
+Coconut,Storable,4791,0.065,7.07e-06,2.78,0.039,0.102
+Potato,Semi,5505,0.064,2.07e-06,2.32,0.07,0.15
+Onion,Semi,7011,0.104,2.84e-18,1.95,0.079,0.137
+Green Chilli,High,7044,0.07,3.37e-09,1.42,0.125,0.18
+Brinjal,High,6816,0.098,4.07e-16,1.02,0.151,0.154
+Tomato,High,6982,0.084,1.93e-12,0.76,0.169,0.132

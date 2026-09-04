@@ -1,0 +1,16 @@
+state_a,hub_a,state_b,hub_b,great_circle_km,road_km,road_km_low,road_km_high
+Andhra Pradesh,Kurnool,Karnataka,Bengaluru,322,402,370,434
+Andhra Pradesh,Kurnool,Kerala,Palakkad,581,727,669,785
+Andhra Pradesh,Kurnool,Maharashtra,Nashik,645,806,742,871
+Andhra Pradesh,Kurnool,Tamil Nadu,Thiruvallur,361,451,415,487
+Andhra Pradesh,Kurnool,Telangana,Hyderabad,179,224,206,242
+Karnataka,Bengaluru,Kerala,Palakkad,264,330,304,357
+Karnataka,Bengaluru,Maharashtra,Nashik,879,1099,1011,1187
+Karnataka,Bengaluru,Tamil Nadu,Thiruvallur,252,315,290,340
+Karnataka,Bengaluru,Telangana,Hyderabad,500,625,575,675
+Kerala,Palakkad,Maharashtra,Nashik,1069,1336,1229,1443
+Kerala,Palakkad,Tamil Nadu,Thiruvallur,441,551,507,596
+Kerala,Palakkad,Telangana,Hyderabad,760,950,874,1026
+Maharashtra,Nashik,Tamil Nadu,Thiruvallur,1002,1253,1153,1353
+Maharashtra,Nashik,Telangana,Hyderabad,574,717,660,775
+Tamil Nadu,Thiruvallur,Telangana,Hyderabad,495,619,570,669
