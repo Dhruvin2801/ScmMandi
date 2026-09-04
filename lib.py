@@ -183,3 +183,7 @@ def sidebar_footer() -> None:
         "</div>",
         unsafe_allow_html=True,
     )
+    
+@st.cache_data
+def load_data():
+    return pd.read_csv("data/master_monthly.csv.gz")
