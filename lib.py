@@ -7,35 +7,32 @@ import streamlit as st
 
 DATA = Path(__file__).parent / "data"
 
-# Palette adapted from the MandiLens design system.
+# Green palette — matches the project workbook and slide deck.
 C = {
-    "canvas": "#dde0da",
-    "frame": "#f2f3ef",
-    "surface": "#ffffff",
-    "surface_soft": "#f7f8f5",
-    "surface_quiet": "#eef0eb",
-    "ink": "#172019",
-    "ink_soft": "#303b31",
-    "muted": "#596359",
-    "faint": "#687268",
-    "line": "#dde1d8",
-    "line_strong": "#cbd1c5",
-    "leaf": "#8fc642",
-    "leaf_dark": "#3f6f25",
-    "leaf_soft": "#eaf5da",
-    "turmeric": "#f0dc35",
-    "turmeric_soft": "#fff9ca",
-    "mango": "#f1a45b",
-    "mango_soft": "#fff0e0",
-    "primary": "#536f59",
-    "primary_strong": "#385141",
-    "secondary": "#91a294",
-    "range": "#d9c88f",
-    "range_soft": "#f2ecdc",
-    "clay": "#c58b68",
-    "grid": "#e4e9e2",
-    "danger": "#b95845",
-    "danger_soft": "#fbe9e4",
+    "frame": "#F1F8F3",
+    "surface": "#FFFFFF",
+    "surface_soft": "#EAF4EC",
+    "card": "#DCEEE1",
+    "card_deep": "#C9E5D1",
+    "ink": "#12251A",
+    "ink_soft": "#22402E",
+    "muted": "#4E6B58",
+    "faint": "#6B8574",
+    "line": "#C3E0CB",
+    "line_strong": "#A5D2B1",
+    "band": "#1B4332",
+    "primary": "#2D6A4F",
+    "primary_strong": "#1B4332",
+    "accent": "#52B788",
+    "leaf": "#74C69D",
+    "leaf_soft": "#B7E4C7",
+    "secondary": "#95C7A6",
+    "range": "#B7D9C2",
+    "turmeric": "#E9C46A",
+    "clay": "#C08552",
+    "grid": "#DCEBE1",
+    "danger": "#B0553F",
+    "danger_soft": "#F7E4DE",
 }
 
 CSS = f"""
@@ -46,28 +43,33 @@ html, body, [class*="css"], .stApp {{
     font-family: 'Noto Sans', system-ui, sans-serif;
     color: {C['ink']};
 }}
-.stApp {{ background: {C['frame']}; }}
+.stApp {{
+    background:
+      radial-gradient(1200px 500px at 12% -8%, {C['card']} 0%, rgba(255,255,255,0) 60%),
+      {C['frame']};
+}}
 section[data-testid="stSidebar"] {{
     background: {C['surface_soft']};
     border-right: 1px solid {C['line']};
 }}
+section[data-testid="stSidebar"] * {{ color: {C['ink_soft']}; }}
 #MainMenu, footer {{ visibility: hidden; }}
-.block-container {{ padding-top: 2.2rem; max-width: 1180px; }}
+.block-container {{ padding-top: 2.0rem; max-width: 1200px; }}
 
-h1, h2, h3 {{ color: {C['ink']}; font-weight: 600; letter-spacing: -0.01em; }}
-h1 {{ font-size: 1.9rem; }}
-h2 {{ font-size: 1.3rem; margin-top: 1.6rem; }}
+h1, h2, h3 {{ color: {C['band']}; font-weight: 600; letter-spacing: -0.01em; }}
+h1 {{ font-size: 1.95rem; }}
+h2 {{ font-size: 1.3rem; margin-top: 1.7rem; }}
 h3 {{ font-size: 1.05rem; }}
 
 .masthead {{
-    background: {C['surface']};
-    border: 1px solid {C['line']};
+    background: linear-gradient(135deg, {C['band']} 0%, {C['primary']} 100%);
     border-radius: 14px;
-    padding: 1.5rem 1.7rem;
-    margin-bottom: 1.3rem;
+    padding: 1.6rem 1.8rem;
+    margin-bottom: 1.4rem;
+    border-left: 5px solid {C['accent']};
 }}
-.masthead h1 {{ margin: 0 0 .35rem 0; }}
-.masthead p {{ color: {C['muted']}; margin: 0; font-size: .95rem; line-height: 1.5; }}
+.masthead h1 {{ margin: 0 0 .4rem 0; color: #FFFFFF; }}
+.masthead p {{ color: {C['leaf_soft']}; margin: 0; font-size: .95rem; line-height: 1.55; }}
 
 .card {{
     background: {C['surface']};
@@ -79,43 +81,51 @@ h3 {{ font-size: 1.05rem; }}
 .kpi {{
     background: {C['surface']};
     border: 1px solid {C['line']};
-    border-radius: 12px;
-    padding: 1rem 1.1rem;
+    border-top: 4px solid {C['primary']};
+    border-radius: 10px;
+    padding: .95rem 1.05rem;
     height: 100%;
 }}
 .kpi .label {{
-    color: {C['faint']}; font-size: .72rem; font-weight: 600;
-    text-transform: uppercase; letter-spacing: .06em; margin-bottom: .3rem;
+    color: {C['faint']}; font-size: .70rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: .07em; margin-bottom: .3rem;
 }}
-.kpi .value {{ color: {C['primary_strong']}; font-size: 1.55rem; font-weight: 700; line-height: 1.15; }}
+.kpi .value {{ color: {C['primary']}; font-size: 1.6rem; font-weight: 700; line-height: 1.15; }}
 .kpi .sub {{ color: {C['muted']}; font-size: .78rem; margin-top: .25rem; }}
 
 .pill {{
-    display: inline-block; padding: .16rem .6rem; border-radius: 999px;
-    font-size: .72rem; font-weight: 600; margin-right: .3rem;
+    display: inline-block; padding: .18rem .65rem; border-radius: 999px;
+    font-size: .72rem; font-weight: 700; margin-right: .35rem;
 }}
-.pill-good {{ background: {C['leaf_soft']}; color: {C['leaf_dark']}; }}
-.pill-warn {{ background: {C['turmeric_soft']}; color: #7a6a00; }}
+.pill-good {{ background: {C['leaf_soft']}; color: {C['band']}; }}
+.pill-warn {{ background: #FBF0D4; color: #7A5E14; }}
 .pill-bad  {{ background: {C['danger_soft']}; color: {C['danger']}; }}
-.pill-neutral {{ background: {C['surface_quiet']}; color: {C['muted']}; }}
+.pill-neutral {{ background: {C['card']}; color: {C['ink_soft']}; }}
 
 .note {{
-    background: {C['surface_soft']};
-    border-left: 3px solid {C['secondary']};
+    background: {C['card']};
+    border-left: 4px solid {C['primary']};
     border-radius: 0 8px 8px 0;
-    padding: .75rem 1rem; margin: .6rem 0;
-    color: {C['ink_soft']}; font-size: .88rem; line-height: 1.55;
+    padding: .8rem 1.05rem; margin: .65rem 0;
+    color: {C['ink_soft']}; font-size: .89rem; line-height: 1.6;
 }}
-.note-warn {{ background: {C['mango_soft']}; border-left-color: {C['mango']}; }}
+.note-warn {{ background: #FBF3DF; border-left-color: {C['turmeric']}; }}
 .caption {{ color: {C['faint']}; font-size: .78rem; font-style: italic; margin-top: .3rem; }}
 
-div[data-testid="stMetricValue"] {{ color: {C['primary_strong']}; }}
+div[data-testid="stMetricValue"] {{ color: {C['primary']}; }}
 .stButton>button {{
     background: {C['primary']}; color: #fff; border: none;
-    border-radius: 8px; font-weight: 600; padding: .45rem 1.1rem;
+    border-radius: 8px; font-weight: 600; padding: .5rem 1.2rem;
 }}
-.stButton>button:hover {{ background: {C['primary_strong']}; color: #fff; }}
+.stButton>button:hover {{ background: {C['band']}; color: #fff; }}
 .stDataFrame {{ border: 1px solid {C['line']}; border-radius: 10px; }}
+
+.stTabs [data-baseweb="tab-list"] {{ gap: .4rem; border-bottom: 1px solid {C['line']}; }}
+.stTabs [data-baseweb="tab"] {{
+    background: {C['card']}; border-radius: 8px 8px 0 0;
+    padding: .55rem 1.1rem; font-weight: 600; color: {C['ink_soft']};
+}}
+.stTabs [aria-selected="true"] {{ background: {C['primary']} !important; color: #FFFFFF !important; }}
 </style>
 """
 
@@ -125,14 +135,15 @@ PLOTLY_LAYOUT = dict(
     plot_bgcolor=C["surface"],
     xaxis=dict(gridcolor=C["grid"], zerolinecolor=C["line_strong"]),
     yaxis=dict(gridcolor=C["grid"], zerolinecolor=C["line_strong"]),
-    margin=dict(l=10, r=10, t=42, b=10),
+    margin=dict(l=10, r=10, t=44, b=10),
     legend=dict(orientation="h", yanchor="bottom", y=1.02, x=0),
     hoverlabel=dict(bgcolor=C["surface"], font_size=12),
+    colorway=[C["primary"], C["leaf"], C["accent"], C["secondary"], C["range"], C["clay"]],
 )
 
 
 def setup(title: str) -> None:
-    st.set_page_config(page_title=f"{title} · ColdLens", page_icon="🌾", layout="wide")
+    st.set_page_config(page_title=f"{title} · ColdLens", page_icon="🌿", layout="wide")
     st.markdown(CSS, unsafe_allow_html=True)
 
 
@@ -175,15 +186,14 @@ def load(name: str) -> pd.DataFrame:
 def sidebar_footer() -> None:
     st.sidebar.markdown("---")
     st.sidebar.markdown(
-        f"<div style='font-size:.76rem;color:{C['faint']};line-height:1.5'>"
-        "<b>ColdLens</b><br>Post-harvest supply chain decision support.<br><br>"
+        f"<div style='font-size:.76rem;color:{C['muted']};line-height:1.55'>"
+        f"<b style='color:{C['band']}'>ColdLens</b><br>Post-harvest supply chain decision support.<br><br>"
         "AGMARKNET daily mandi records, 1,421,838 observations, "
         "six southern states, Jul 2024 – Jul 2026.<br><br>"
         "Information only. Not trading, procurement or financial advice."
         "</div>",
         unsafe_allow_html=True,
-    )
-    
+    )  
 @st.cache_data
 def load_data():
     return pd.read_csv("data/master_monthly.csv.gz")
